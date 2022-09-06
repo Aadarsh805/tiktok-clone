@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Video from './components/Video';
 
 function App() {
   return (
-    <div className="App">
-      appfd
-      fsdgdf
+    <div className="app">
+      <Video/>
+      <Video/>
+      <Video/>
     </div>
   );
 }
